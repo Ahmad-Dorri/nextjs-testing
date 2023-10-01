@@ -4,9 +4,11 @@ import Header from '@/components/ui/header';
 
 export default function Home() {
   return (
-    <Container>
-      <Header />
-      <TodoList />
-    </Container>
+    <>
+      <Container>
+        <Header />
+        <TodoList />
+      </Container>
+    </>
   );
 }
