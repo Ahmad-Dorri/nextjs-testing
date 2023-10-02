@@ -27,7 +27,6 @@ const AddTodoInput = () => {
   });
   const onSubmit: SubmitHandler<TodoType> = (value) => {
     try {
-      console.log(value);
       const data = {
         id: new Date().valueOf().toString(),
         createdAt: new Date(),
